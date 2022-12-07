@@ -1,0 +1,12 @@
+version: "12.13"
+services:
+  postgres:
+    image: postgres:12-alpine
+    environment:
+      POSTGRES_DB: "cardSQL"
+      POSTGRES_USER: "netology"
+      POSTGRES_PASSWORD: "netologySQL"
+    ports:
+      - "5432:5432"
+
+
